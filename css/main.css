@@ -28,3 +28,32 @@ h2 {
 section {
   background-color: #e5c30a;
 }
+
+.img-flex {
+  width: 100%;
+  display: block;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1.3rem;
+  max-width: 45em;
+  margin: 0 auto;
+}
+
+.section-icon {
+  width: 50%;
+}
+
+.section-letter {
+  width: 50%;
+}
+
+section h2 {
+  font-size: 1.5rem;
+}
+
+section p {
+  margin: 0;
+}
