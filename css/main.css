@@ -79,7 +79,7 @@ section p {
 
   .section-body {
     padding: 0 1.8rem;
-    width: 60%
+    width: 60%;
   }
 
   .wrapper {
@@ -89,7 +89,8 @@ section p {
   }
 
   .section-icon {
-    widthL 20%;
+    width: 20%;
+    order: 10;
   }
 
   .section-letter {
