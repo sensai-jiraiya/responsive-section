@@ -57,3 +57,47 @@ section h2 {
 section p {
   margin: 0;
 }
+
+@media only screen and (min-width: 25em) {
+
+  .section-letter {
+    padding: 0 1rem;
+  }
+
+  .section-icon {
+    padding: 0 1rem;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  html {
+    line-height: 1.4;
+    font-size: 110%;
+  }
+
+  .section-body {
+    padding: 0 1.8rem;
+    width: 60%
+  }
+
+  .wrapper {
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .section-icon {
+    widthL 20%;
+  }
+
+  .section-letter {
+    width: 20%;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+}
